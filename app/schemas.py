@@ -31,4 +31,5 @@ class StudentBase(BaseModel):
 
 
 class Student(StudentBase):
+    id: int
     grade_predicted: int
